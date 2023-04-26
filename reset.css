@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+.logo {
+
+    width: min-content;
+    width: 192px;
+    height: 32px;
+    margin: 18px;
+}
+
+header {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px 20px;
+    border-radius: 10000px;
+    border-top: 5px;
+    transition: 0.2s;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+}
+
+.rodape {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.pagina2 {
+    text-align: justify;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+}
+
+
+
+main {
+    background-position: 0px;
+    margin: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+    border-radius: 7px;
+}
+
+.voltarPagina {
+    text-align: center;
+    margin: 4px;
+}
+
+
+.titulo1 {
+    margin: 10px;
+}
+
+h1,
+h2 {
+    margin: 10px;
+}
+
+.logos {
+    width: 190px;
+    margin: 3px;
+}
+
+
+
+.linkmine {
+    text-decoration: none;
+}
+
+.bemvindo {
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.4rem;
+}
+
+.fundoinincial {
+
+    width: 30rem;
+    position: fixed;
+    top: 30%;
+    left: 39%;
+    transform: translateX(-35%);
+    border-radius: 30px;
+}
+
+.steve {
+    width: 20rem;
+    position: fixed;
+    top: 37%;
+    left: 28rem;
+    transform: translateX(-35%);
+    border-radius: 30px;
+}
+
+.herobrine {
+    display: none;
+    width: 20rem;
+    position: fixed;
+    top: 37%;
+    left: 28rem;
+    transform: translateX(-35%);
+    border-radius: 30px;
+}
+
+.steve:active {
+    opacity: 0;
+}
+
+.herobrine:active {
+    display: block;
+    opacity: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+.imagem:hover .herobrine {
+    display: block;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+body {
+    background-attachment: fixed;
+}
+
+.versoes table {
+    border: 2px solid rgb(180, 180, 180);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.armas {
+    margin: 10px;
+}
+
+.inventario,
+.hotbar,
+.picaretaCraft,
+.tabelaArmaduras {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hotbar {
+    margin-top: 20px;
+    width: 380px;
+    padding: 0px;
+    border: 0px;
+}
+
+.minerios {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    font-size: 60%;
+}
+
+.minerios th,
+.minerios td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.minerios img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.ferramentas img {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.fundo3 h2 {
+    margin-top: 20px;
+}
+
+#dimensoes {
+    margin: 10px;
+    border-collapse: collapse;
+
+
+}
+
+#dimensoes td,
+tr,
+th {
+    border: 1px solid black;
+}
+
+#dimensoes img {
+    width: 60px;
+    margin: 5px;
+}
+
+.predios {
+    width: 45%;
+    display: block;
+    margin: auto;
+}
